@@ -1,0 +1,72 @@
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 600px;
+  border: 10px solid rgb(204, 79, 121);
+  border-radius: 30px 30px 30px 30px;
+  background-color: lightpink;
+
+}
+
+.search-form {
+  margin: 0;
+  display: block;
+  padding: 10px;
+  max-width: 250px;
+  max-height: 200px;
+  ;
+}
+
+.weather.is-hidden {
+  display: none;
+}
+
+
+h2 {
+  text-align: center;
+  color: rgb(66, 16, 32);
+  
+}
+
+.credit {
+  color: rgb(66, 16, 32);
+  padding-left: 20px;
+  
+}
+
+.credit a {
+  color: rgb(66, 16, 32);
+  
+}
+
+.weather {
+  text-align: center;
+  
+}
+
+input {
+  border-radius: 30px 30px 30px 30px;
+  border-style: none;
+  padding: 5px;
+}
+
+button {
+  border-radius: 30px 30px 30px 30px;
+  border-style: none;
+  padding: 5px;
+  font-family: 'Black Han Sans';
+
+}
+
+
